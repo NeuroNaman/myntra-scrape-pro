@@ -1,59 +1,157 @@
-# Myntra Review Scraper Project
+🚀 Myntra Scrape Pro — Review Scraper & Analyzer
+<p align="center"> <img src="https://img.shields.io/badge/Python-3.10-blue.svg" /> <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B.svg" /> <img src="https://img.shields.io/badge/Scraping-Selenium-blueviolet.svg" /> <img src="https://img.shields.io/badge/Database-MongoDB-success.svg" /> <img src="https://img.shields.io/badge/ChromeDriver-Binary-green.svg" /> <img src="https://img.shields.io/badge/License-MIT-yellow.svg" /> <img src="https://img.shields.io/github/stars/NeuroNaman/myntra-scrape-pro?style=social" /> </p>
+📝 Project Summary
 
-## Project Detail/Summary
+Myntra Scrape Pro is a powerful review scraper and analysis tool built to extract product reviews from the Myntra website.
 
-This project is a Myntra review scraper that allows users to extract and analyze customer reviews from the Myntra website. The scraper collects valuable information, such as product ratings, reviews, and user feedback, providing insights into customer sentiments and preferences.
+The application collects:
 
-## How to Setup Locally
+⭐ Product ratings
 
-To set up the project locally, follow these steps:
+💬 Customer comments
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/PWskills-DataScienceTeam/myntra-review-scrapper.git
-   cd myntra-review-scraper
-   ```
+👤 Reviewer names
 
-2. Create a new conda environment and activate it
-```bash
+📦 Product details
+
+📊 Review statistics
+
+All scraped data is stored securely in MongoDB and visualized using a modern Streamlit dashboard, allowing users to explore customer feedback quickly and interactively.
+
+✨ Features
+
+🔍 Extract reviews from ANY Myntra product URL
+
+⭐ Capture ratings, comments, reviewer names
+
+🗄️ Save data into MongoDB automatically
+
+⚡ Real-time scraping with Selenium
+
+🎨 Clean and interactive Streamlit UI
+
+🔐 Secure .env environment variable support
+
+🟢 ChromeDriver Binary (no manual setup required)
+
+🛠️ Tech Stack
+Frontend/UI
+
+Streamlit
+
+Backend
+
+Python
+
+Selenium
+
+BeautifulSoup (optional)
+
+Database
+
+MongoDB
+
+database-connect library
+
+Utilities
+
+ChromeDriver Binary (PyPI)
+
+python-dotenv
+
+📥 Clone the Repository
+git clone https://github.com/NeuroNaman/myntra-scrape-pro.git
+cd myntra-scrape-pro
+
+⚙️ Setup Instructions
+1️⃣ Create & activate a virtual environment
+
+Using Conda:
+
 conda create -p ./env python=3.10 -y
-#to activate the environment
-conda activate ./env 
-#or 
-source activate ./env
-```
+conda activate ./env
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-3. Replace the environment variable in `.env` file
-    Add the MongoDB environment variable in the `.env` file
+Using venv:
 
-4. Run the Streamlit application:
-   ```bash
-   streamlit run app.py
-   ```
+python -m venv .venv
+.\.venv\Scripts\activate       # Windows
 
-5. Access the application in your web browser at [http://localhost:8501](http://localhost:8501).
+2️⃣ Install dependencies
+pip install -r requirements.txt
 
-## Dependencies
+3️⃣ Add MongoDB environment variable
 
-The project relies on the following dependencies:
+Create a file named .env in the project root:
 
-- Streamlit: A Python library for creating interactive web applications with ease.
-- MongoDB: A NoSQL database used to store and manage extracted data.
-- database-connect: A package used to simplify the connection to MongoDB.
+MONGO_DB_URL="your-mongodb-connection-string"
 
-## Replacing chromedriver.exe with ChromeDriver Binary
 
-The decision to replace `chromedriver.exe` with the `ChromeDriver binary pypi package` was made to provide better compatibility and flexibility across different operating systems. By using the binary, users can easily switch between operating systems without the need to manage different driver versions.
+Ensure .env is included in .gitignore.
 
-## MongoDB Connection
+4️⃣ Run the Streamlit App
+streamlit run app.py
 
-The project utilizes MongoDB as the backend database for storing scraped data. The `database-connect` package is employed to streamline the connection process, making it easier for developers to interact with MongoDB in their applications.
+5️⃣ Open the Web App
 
-Feel free to explore the codebase and customize the scraper to suit your specific requirements. If you encounter any issues or have suggestions for improvement, please open an issue on the GitHub repository.
+👉 http://localhost:8501
 
-Happy scraping! 🕵️‍♂️🚀
+🗄️ MongoDB Integration
+
+The app uses MongoDB to store:
+
+Ratings
+
+Comments
+
+Reviewer metadata
+
+Product details
+
+The connection is handled automatically using the database-connect package and environment variables.
+
+🛠️ ChromeDriver Binary Support
+
+Instead of manually downloading chromedriver.exe, this project uses the ChromeDriver Binary PyPI package, which:
+
+✔ Automatically matches Chrome version
+✔ Works on all OS
+✔ Requires no manual setup
+
+📸 Screenshots (Add Yours Here)
+
+Example format:
+
+![Home Page](screenshots/home.png)
+![Reviews](screenshots/reviews.png)
+
+📂 Project Structure
+myntra-scrape-pro/
+│── app.py                 # Streamlit UI
+│── application.py         # Selenium backend scraper
+│── src/
+│   ├── cloud_io           # Mongo DB handler
+│   └── ...
+│── requirements.txt
+│── README.md
+│── .env (ignored)
+│── .gitignore
+
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to open:
+
+🐞 Issues
+
+💡 Feature Requests
+
+🔧 Pull Requests
+
+⭐ Support the Project
+
+If you found this useful, give the repo a ⭐ star on GitHub!
+
+🚀 Happy Scraping!
+
+Made with ❤️ by Naman Nanda
