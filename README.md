@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="A_promotional_digital_graphic_design_banner_for_a_.png" width="100%" />
+ <img width="1536" height="1024" alt="ChatGPT Image Nov 29, 2025, 01_01_19 AM" src="https://github.com/user-attachments/assets/ac2e3d5d-a0f3-4191-9150-3697a0ff1c3d" />
 </p>
-
 # 🚀 Myntra Scrape Pro — Review Scraper & Analyzer
 
 <p align="center">
