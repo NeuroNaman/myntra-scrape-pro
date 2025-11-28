@@ -1,5 +1,18 @@
-🚀 Myntra Scrape Pro — Review Scraper & Analyzer
-<p align="center"> <img src="https://img.shields.io/badge/Python-3.10-blue.svg" /> <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B.svg" /> <img src="https://img.shields.io/badge/Scraping-Selenium-blueviolet.svg" /> <img src="https://img.shields.io/badge/Database-MongoDB-success.svg" /> <img src="https://img.shields.io/badge/ChromeDriver-Binary-green.svg" /> <img src="https://img.shields.io/badge/License-MIT-yellow.svg" /> <img src="https://img.shields.io/github/stars/NeuroNaman/myntra-scrape-pro?style=social" /> </p>
+<p align="center">
+  <img src="A_promotional_digital_graphic_design_banner_for_a_.png" width="100%" />
+</p>
+
+# 🚀 Myntra Scrape Pro — Review Scraper & Analyzer
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue.svg" />
+  <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B.svg" />
+  <img src="https://img.shields.io/badge/Scraping-Selenium-blueviolet.svg" />
+  <img src="https://img.shields.io/badge/Database-MongoDB-success.svg" />
+  <img src="https://img.shields.io/badge/ChromeDriver-Binary-green.svg" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  <img src="https://img.shields.io/github/stars/NeuroNaman/myntra-scrape-pro?style=social" />
+</p>
 📝 Project Summary
 
 Myntra Scrape Pro is a powerful review scraper and analysis tool built to extract product reviews from the Myntra website.
